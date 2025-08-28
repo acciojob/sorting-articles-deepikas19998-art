@@ -5,7 +5,8 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <ul id="band"></ul>
+  <!-- yaha id "bands" honi chahiye -->
+  <ul id="bands"></ul>
 
   <script>
     const bands = [
@@ -26,7 +27,7 @@
     });
 
     // Insert into UL
-    document.getElementById('band').innerHTML =
+    document.getElementById('bands').innerHTML =
       sortedBands.map(band => `<li>${band}</li>`).join('');
   </script>
 </body>
